@@ -1,0 +1,28 @@
+{
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+    "workbench.colorCustomizations": {
+        "activityBar.activeBackground": "#8399af4b",
+        "activityBar.background": "#303031",
+        "activityBar.foreground": "#ec0aa1",
+        "activityBar.inactiveForeground": "#f7f7f7",
+        "activityBarBadge.background": "#bf0060",
+        "activityBarBadge.foreground": "#e7e7e7",
+        "commandCenter.border": "#e7e7e799", 
+        "sash.hoverBorder": "#3399ff",
+        "statusBar.background": "#303031",
+        "statusBar.foreground": "#e7e7e7",
+        "statusBarItem.hoverBackground": "#3399ff",
+        "statusBarItem.remoteBackground": "#303031",
+        "statusBarItem.remoteForeground": "#e7e7e7",
+        "titleBar.activeBackground": "#34344e9f",
+        "titleBar.activeForeground": "#e7e7e7",
+        "titleBar.inactiveBackground": "#007fff99",
+        "titleBar.inactiveForeground": "#e7e7e799"
+    },
+    "peacock.color": "#007fff",
+    "editor.gotoLocation.multipleDeclarations": "peek",
+    "breadcrumbs.filePath": "on",
+    "oneDarkPro.bold": true,
+    "files.autoSave": "off",
+    "editor.renderWhitespace": "selection"
+}

@@ -1,0 +1,135 @@
+.fullscreen-center {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  min-height: 100vh; /* Cambia height por min-height */
+  background-color: #f8f9fa;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  /* Quita align-items y overflow */
+}
+
+body, html {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+.content-container {
+  width: 100%;
+  max-width: 800px;
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  overflow: visible; /* Permite que crezca */
+  flex: 1 0 auto;    /* Hace que crezca y empuje el footer */
+}
+
+/* Asegúrate que el footer no sea fixed ni absolute */
+footer {
+  flex-shrink: 0;
+  width: 100%;
+  position: static;
+}
+
+/* Estilo para el formulario */
+form {
+  margin-bottom: 2rem;
+  width: 100%;
+  max-width: 100%; /* Ancho máximo del formulario */
+  background-color: #ffffff; /* Fondo blanco */
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+}
+
+form input,
+form textarea,
+form button {
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 0.75rem;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+form input:focus,
+form textarea:focus {
+  outline: none;
+  border-color: #007bff; /* Color azul al enfocar */
+  box-shadow: 0 0 4px rgba(0, 123, 255, 0.25);
+}
+
+form button {
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+form button:hover {
+  background-color: #0056b3;
+}
+
+/* Estilo para la tabla */
+.custom-table {
+  width: 100%;
+  max-width: 800px; /* Ancho máximo de la tabla */
+  margin: 0 auto;
+  border-collapse: collapse;
+  background-color: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+}
+
+.custom-table th,
+.custom-table td {
+  border: 1px solid #dee2e6;
+  padding: 0.75rem;
+  text-align: center;
+}
+
+.custom-table th {
+  background-color: #007bff;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.custom-table tr:nth-child(even) {
+  background-color: #f8f9fa; /* Fondo alternado */
+}
+
+/* Botones de acción */
+.edit-btn {
+  background-color: #ffc107;
+  color: #ffffff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.edit-btn:hover {
+  background-color: #e0a800;
+}
+
+.delete-btn {
+  background-color: #dc3545;
+  color: #ffffff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background-color: #c82333;
+}

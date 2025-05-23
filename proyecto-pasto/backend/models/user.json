@@ -1,0 +1,13 @@
+[
+    {
+      "correo": "admin@servidor.com",
+      "password": "pass1234",
+      "nombre": "Admin",
+      "apellido": "Sistema",
+      "telefono": 1234567890,
+      "direccion": "Oficina Principal",
+      "edad": 30,
+      "fecha_nacimiento": "1990-01-01",
+      "rol": "admin"
+    }
+]

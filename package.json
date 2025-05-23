@@ -1,0 +1,30 @@
+{
+  "name": "tarea2programacion",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "**¡Bienvenido a la aventura!**  \r Este proyecto es una aplicación web desarrollada con 💙 React, Node.js, Express y MySQL para promocionar los sitios turísticos más impactantes del sur de Colombia, en especial del territorio ancestral de los Pastos.",
+  "dependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "bcryptjs": "^3.0.2",
+    "bootstrap": "^5.3.5",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-router-dom": "^7.5.0",
+    "vite": "^6.2.5"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/axlGc/LaTierraDeLosPastos-Tarea2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/axlGc/LaTierraDeLosPastos-Tarea2/issues"
+  },
+  "homepage": "https://github.com/axlGc/LaTierraDeLosPastos-Tarea2#readme"
+}
