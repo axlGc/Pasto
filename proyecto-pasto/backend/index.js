@@ -6,8 +6,7 @@ dotenv.config();
 import authRoutes from './routes/authRoutes.js';
 import eventosRoutes from './routes/eventosRoutes.js';
 import usersRoutes from './routes/usersRoutes.js';
-import comentariosRoutes from './routes/comentariosRoutes.js'; // Asegúrate de importar comentariosRoutes
-import { useRoutes } from 'react-router-dom';
+import comentariosRoutes from './routes/comentariosRoutes.js';
 // Si tienes más rutas, impórtalas aquí
 
 const app = express();
@@ -19,9 +18,8 @@ app.use(cors());
 app.use('/auth', authRoutes);
 app.use('/eventos', eventosRoutes);
 app.use('/users', usersRoutes);
-app.use('/comentarios', comentariosRoutes); // Asegúrate de importar comentariosRoutes
-// Agrega más rutas si las tienes, por ejemplo:
-// app.use('/users', userRoutes);
+app.use('/comentarios', comentariosRoutes);
+// Agrega más rutas si las tienes
 
 const PORT = process.env.PORT || 3001;
 app.listen(PORT, () => {
